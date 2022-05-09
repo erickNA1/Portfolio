@@ -1,0 +1,72 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 68vh;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact {
+    position: relative;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact p {
+    width: 280px;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.contact a {
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+}
+
+.contact a:hover {
+    letter-spacing: 2px;
+    
+}
+
+.cr {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 0%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cr p {
+    color: white;
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: 400;
+}
